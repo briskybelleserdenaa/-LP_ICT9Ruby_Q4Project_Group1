@@ -1,0 +1,73 @@
+<nav class="navbar navbar-dark rectangle">
+
+    <style>
+
+    .navbar {
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .logo {
+        width: 60px;
+        margin-bottom: 20px;
+
+    }
+
+    .rectangle {
+        background-color:#f7d152;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+     .nav-link {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+
+
+    </style>
+
+    <div class="container-fluid flex-column align-items-start">
+
+
+        <img src="https://i.pinimg.com/originals/48/a3/54/48a354314bb3517dabc705eb3ee8b968.jpg" class="logo">
+
+
+        <ul class="navbar-nav">
+            <li class="nav-item"> 
+                <a class="nav-link" href="dashboard.html">DASHBOARD</a>
+            </li>
+
+            <li class="nav-item"> 
+                <a class="nav-link" href="notebooks.html">NOTEBOOKS</a>
+            </li>
+
+            <li class="nav-item"> 
+                <a class="nav-link" href="task.html">TASKS</a>
+            </li>
+
+            <li class="nav-item"> 
+                <a class="nav-link" href="profile.html">PROFILE</a>
+            </li>
+        </ul>
+
+
+
+            <li class="nav-item">
+                <button type="button" class="btn btn-warning btn-sm mt-2 w-100" onclick="location.href='index.html'">
+                    LOG OUT
+                </button>
+            </li>
+        </ul>
+
+    </div>
+</nav>
