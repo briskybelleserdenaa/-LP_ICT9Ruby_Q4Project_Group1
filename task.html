@@ -11,6 +11,8 @@
 
     <nav class="navbar navbar-dark rectangle">
 
+    <!-- not broken exactly but i'd suggest not nesting the css stuff below inside of the navbar -->
+    <!-- kinda just weird organizationally speaking -->
     <style>
 
     .navbar {
@@ -50,7 +52,7 @@
     <div class="container-fluid flex-column align-items-start">
 
 
-        <img src="https://i.pinimg.com/originals/48/a3/54/48a354314bb3517dabc705eb3ee8b968.jpg" class="logo">
+        <img src="../assets/images/LOGICAM.png" class="logo">
 
 
         <ul class="navbar-nav">
@@ -74,18 +76,18 @@
 
 
             <li class="nav-item">
-                <button type="button" class="btn btn-warning btn-sm mt-2 w-100" onclick="location.href='index.html'">
+                <button type="button" class="btn btn-warning btn-sm mt-2 w-100" onclick="location.href='login.html'">
                     LOG OUT
                 </button>
             </li>
-        </ul>
+        </ul> <!-- what is this ul tag for -->
 
     </div>
 </nav>
 
 <style>
  body {
-    background-image: url(https://media.discordapp.net/attachments/1493082057998467183/1498302370390609991/bg.jpg?ex=69f0aa52&is=69ef58d2&hm=77479abf74da1a10b8e705c5ef28c00178b16606261c0ebd351891458ad6569e&=&format=webp);
+    background-image: url(../assets/images/bg.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
